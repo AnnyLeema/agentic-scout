@@ -1,0 +1,109 @@
+{
+ "n_datasets": 16,
+ "datasets": [
+  "analcatdata_lawsuit",
+  "ann_thyroid",
+  "backache",
+  "breast_cancer",
+  "coil2000",
+  "dna",
+  "hepatitis",
+  "magic",
+  "mushroom",
+  "nursery",
+  "prnn_crabs",
+  "satimage",
+  "sonar",
+  "texture",
+  "vowel",
+  "wine_recognition"
+ ],
+ "ref": "scout_bandit_nometa",
+ "vs": {
+  "flaml": {
+   "p": 0.001312255859375,
+   "p_holm": 0.009185791015625,
+   "wins": 15,
+   "losses": 1,
+   "ties": 0
+  },
+  "h2o": {
+   "p": 0.0155029296875,
+   "p_holm": 0.0465087890625,
+   "wins": 11,
+   "losses": 5,
+   "ties": 0
+  },
+  "hgb_default": {
+   "p": 0.006615216752983396,
+   "p_holm": 0.026460867011933585,
+   "wins": 13,
+   "losses": 2,
+   "ties": 1
+  },
+  "logreg_default": {
+   "p": 0.002478331942743607,
+   "p_holm": 0.014869991656461641,
+   "wins": 12,
+   "losses": 3,
+   "ties": 1
+  },
+  "rf_default": {
+   "p": 0.004180908203125,
+   "p_holm": 0.020904541015625,
+   "wins": 13,
+   "losses": 3,
+   "ties": 0
+  },
+  "scout_bandit": {
+   "p": 0.2504843488988283,
+   "p_holm": 0.5009686977976566,
+   "wins": 8,
+   "losses": 4,
+   "ties": 4
+  },
+  "scout_ens": {
+   "p": 0.5179065567794687,
+   "p_holm": 0.5179065567794687,
+   "wins": 8,
+   "losses": 7,
+   "ties": 1
+  }
+ },
+ "friedman": {
+  "chi2": 33.0,
+  "p": 2.6476442940650662e-05
+ },
+ "mean_ba": {
+  "flaml": 0.8420642302746705,
+  "h2o": 0.8387290387454182,
+  "hgb_default": 0.8350593901099632,
+  "logreg_default": 0.7624979021222996,
+  "rf_default": 0.8239582850011038,
+  "scout_bandit": 0.8586817946301041,
+  "scout_bandit_nometa": 0.8687873868436365,
+  "scout_ens": 0.8646954568987466
+ },
+ "rank": {
+  "flaml": 5.3125,
+  "h2o": 4.875,
+  "hgb_default": 5.34375,
+  "logreg_default": 6.03125,
+  "rf_default": 5.5625,
+  "scout_bandit": 3.25,
+  "scout_bandit_nometa": 2.78125,
+  "scout_ens": 2.84375
+ },
+ "fit": {
+  "flaml": 30.13398578763008,
+  "h2o": 32.60924565295378,
+  "hgb_default": 5.919676224390666,
+  "logreg_default": 0.16453617811203,
+  "rf_default": 0.579997311035792,
+  "scout_bandit": 50.34292611976465,
+  "scout_bandit_nometa": 43.67286149164041,
+  "scout_ens": 39.71849926312765
+ },
+ "rank_h2o": 4.875,
+ "rank_flaml": 5.3125
+}
